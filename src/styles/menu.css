@@ -1,0 +1,56 @@
+.menu-container {
+    margin: 5rem auto 5rem;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 5px;
+    overflow: initial;
+    background-color: bisque;
+    padding:0 100px;
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 51px;
+}
+
+.menus {
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+
+.menu-items {
+    height: 30rem;
+    width: 250px;
+    background: #3e5c53;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.menu-items img {
+    width: 100%;
+    height: 14rem;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.menu-details {
+    padding: 0 1rem;
+}
+
+.menu-description {
+    margin: 0;
+    height: 84px;
+}
+
+.order-btn {
+    padding: 8px 12px;
+    margin-top: 3rem;
+    font-weight: 600;
+}

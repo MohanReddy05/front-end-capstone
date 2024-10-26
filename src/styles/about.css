@@ -1,0 +1,23 @@
+.about {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    font-family: "markazi text";
+    display: flex;
+    justify-content: space-evenly;
+}
+h2 {
+    font-family: "markazi text";
+    font-size: 64px;
+    margin-bottom: 0;
+}
+h3{
+    font-size: 40px;
+    margin-top: 0;
+}
+h4{
+    margin-bottom: 0;
+}
+p{
+    margin-top: 0;
+}

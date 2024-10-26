@@ -1,0 +1,27 @@
+footer {
+    text-align: left;
+    background-color: #212121;
+    color: aliceblue;
+}
+li,
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+.company-detailes,
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+}
+.company-detailes{
+    justify-content: space-evenly;
+    width: 90%;
+}
+div {
+    padding: 10px;
+}
+/* .company-logo {
+    width: 100px;
+    height: 200px;
+} */

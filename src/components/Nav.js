@@ -1,17 +1,17 @@
 import React from "react";
-
+import "../styles/nav.css";
 function Nav() {
     return (
-        <>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservations</li>
-                <li>Order online</li>
-                <li>Login</li>
+        <nav>
+            <ul className="nav-bar">
+                <li><a href="/">Home </a></li>
+                <li><a href="/about">About </a></li>
+                <li><a href="/menu">Menu </a></li>
+                <li><a href="/reservations">Reservations </a></li>
+                <li><a href="/order">Order online </a></li>
+                <li><a href="/">Login </a></li>
             </ul>
-        </>
+        </nav>
     );
 }
 

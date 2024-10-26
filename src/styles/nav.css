@@ -1,0 +1,8 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    justify-content: space-around;
+    /* width: 95%; */
+    font-family: "carla";
+}
