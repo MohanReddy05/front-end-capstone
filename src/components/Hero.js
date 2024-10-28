@@ -12,7 +12,7 @@ function Hero() {
                     <br />
                     focused on traditional recipes served with a modern twist.
                 </p>
-                <Link to="/">
+                <Link to="/booking">
                     <button aria-label="On Click">Reserve a table</button>
                 </Link>
             </div>
